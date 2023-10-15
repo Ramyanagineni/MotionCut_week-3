@@ -1,0 +1,120 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 30px 0; /* Add margin to the top */
+    padding: 0;
+    background-color: #fff0d9; /* Change the body background color */
+}
+
+.container {
+    max-width: 460px;
+    margin: 0 auto;
+    background-color: #fff; /* Change container background color to white */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%; /* Adjusted width */
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button#addTask {
+    padding: 8px 20px;
+    background-color: #007BFF; /* Blue background color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 20%;
+}
+
+button#addTask:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
+
+span {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+button.edit,
+button.delete,
+button.complete {
+    padding: 6px 10px;
+    margin: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+button.edit:hover {
+    background-color: #218838;
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+button.complete {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+button.complete:hover {
+    background-color: #0056b3;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+input[type="checkbox"] + span {
+    font-size: 18px;
+    color: #333;
+}
